@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "FlOzNKXhI1rvf2z3G+ztPPeaAgJleqjEO/3Q7fKuKtpFCj8pTB4UE0LE3zVqtRjGVZeXT46bDXwSV6Xq1ctVhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nikit\\RiderProjects\\FVStorage\\FVStorage\\FVStorage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nikit\\.nuget\\packages\\easynetq\\8.0.0-beta94\\easynetq.8.0.0-beta94.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Nikit\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
