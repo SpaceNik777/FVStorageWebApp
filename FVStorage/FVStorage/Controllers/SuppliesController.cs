@@ -94,7 +94,7 @@ public class SuppliesController : ControllerBase
             Id = supplyId.ToString(),
             Date = dto.Date,
             Amount = dto.Amount,
-            ProductModel = productModel
+            SupplyProduct = productModel
         };
         _db.CreateSupply(supply);
         // await PublishNewSupplyMessage(supply);

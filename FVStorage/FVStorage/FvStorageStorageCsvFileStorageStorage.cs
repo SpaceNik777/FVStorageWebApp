@@ -29,7 +29,7 @@ public class FvStorageStorageCsvFileStorageStorage : IFVStorageStorage {
 
             foreach (var product in products.Values) {
                 product.Supplies = supplies.Values.Where(v => v.ProductCode == product.Code).ToList();
-                foreach (var supply in product.Supplies) supply.ProductModel = product;
+                foreach (var supply in product.Supplies) supply.SupplyProduct = product;
             }
         }
 
@@ -100,8 +100,8 @@ public class FvStorageStorageCsvFileStorageStorage : IFVStorageStorage {
         public Supplier FindSupplier(string code) => suppliers.GetValueOrDefault(code);
 
         public void CreateSupply(Supply supply) {
-            supply.ProductModel.Supplies.Add(supply);
-            supply.ProductCode = supply.ProductModel.Code;
+            supply.SupplyProduct.Supplies.Add(supply);
+            supply.ProductCode = supply.SupplyProduct.Code;
             UpdateSupply(supply);
         }
 

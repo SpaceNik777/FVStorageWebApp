@@ -9,6 +9,6 @@ namespace FVStorage.Entities
         public int Amount { get; set; }
         public DateTime Date { get; set; }
         [JsonIgnore]
-        public virtual Product ProductModel { get; set; }
+        public virtual Product SupplyProduct { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikit\\RiderProjects\\FVStorage\\FVStorage\\FVStorage.csproj": {}
+    "C:\\Users\\Nikit\\RiderProjects\\FVStorageWebApp\\FVStorage\\FVStorage\\FVStorage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikit\\RiderProjects\\FVStorage\\FVStorage\\FVStorage.csproj": {
+    "C:\\Users\\Nikit\\RiderProjects\\FVStorageWebApp\\FVStorage\\FVStorage\\FVStorage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikit\\RiderProjects\\FVStorage\\FVStorage\\FVStorage.csproj",
+        "projectUniqueName": "C:\\Users\\Nikit\\RiderProjects\\FVStorageWebApp\\FVStorage\\FVStorage\\FVStorage.csproj",
         "projectName": "FVStorage",
-        "projectPath": "C:\\Users\\Nikit\\RiderProjects\\FVStorage\\FVStorage\\FVStorage.csproj",
+        "projectPath": "C:\\Users\\Nikit\\RiderProjects\\FVStorageWebApp\\FVStorage\\FVStorage\\FVStorage.csproj",
         "packagesPath": "C:\\Users\\Nikit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikit\\RiderProjects\\FVStorage\\FVStorage\\obj\\",
+        "outputPath": "C:\\Users\\Nikit\\RiderProjects\\FVStorageWebApp\\FVStorage\\FVStorage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikit\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,22 @@
               "target": "Package",
               "version": "[8.0.0-beta94, )"
             },
+            "GraphQL": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "GraphQL.MicrosoftDI": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore.SystemTextJson": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "GraphQL.Server.Ui.Altair": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -66,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
